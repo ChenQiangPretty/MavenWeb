@@ -23,7 +23,7 @@ import service.EmpService;
 
 /**
  * Ա������ģ�� �����������ֲ㣩
- * 
+ *
  * @author hadoop
  * @param <V>
  *
@@ -52,19 +52,19 @@ public class EmpAction {
 		long time = date.getTime();
 		Date date2 = new Date(time+123425);
 		System.out.println(date2);
-		
-		
-		
-		
-		
+
+
+
+
+
 	}
 /*	public void test() throws SQLException{
-		
-	  
+
+
 		Connection connection = DriverManager.getConnection("");
 		Statement createStatement = connection.createStatement();
 		String sql = null;
 		ResultSet executeQuery = createStatement.executeQuery(sql);
-		
+
 	}*/
 }

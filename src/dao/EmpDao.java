@@ -19,7 +19,7 @@ import entity.Empss;
 
 /**
  * Ա������ģ�� �־ò�ʵ����
- * 
+ *
  * @author hadoop
  *
  */
@@ -44,7 +44,7 @@ public class EmpDao {
 	 * JdbcTemplate jdbcTemplate = new JdbcTemplate(JdbcUtil.getDataSource());
 	 * String sql = "select * from emp"; List<Map<String, Object>> queryForList
 	 * = jdbcTemplate.queryForList(sql); return queryForList;
-	 * 
+	 *
 	 * }
 	 */
 
@@ -57,7 +57,7 @@ public class EmpDao {
 	 * entrySet.iterator(); while(iterator.hasNext()){
 	 * System.out.print(iterator.next().getValue()+":"); }
 	 * System.out.println("\n"); }
-	 * 
+	 *
 	 * }
 	 */
 }
