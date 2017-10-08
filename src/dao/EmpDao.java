@@ -29,6 +29,7 @@ public class EmpDao {
         List<Empss> empList = runner.query(sql, new BeanListHandler<Empss>(
                 Empss.class));
         System.out.println("chenqiang made ");
+        System.out.println("eclipse made yo");
         return empList;
 
     }

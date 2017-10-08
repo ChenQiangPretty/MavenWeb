@@ -6,7 +6,7 @@ create table emps(
 );
 
 
-desc emps;
+desc emps ;
 
 
 select * from emps;
