@@ -34,7 +34,8 @@ public class EmpDao {
 		String sql = "select * from emp";
 		List<Empss> empList = runner.query(sql, new BeanListHandler<Empss>(
 				Empss.class));
-		//System.out.println("runing");
+		System.out.println("runing");
+		System.out.println("haha");
 		return empList;
 
 	}
