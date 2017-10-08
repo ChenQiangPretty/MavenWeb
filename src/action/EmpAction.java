@@ -39,18 +39,15 @@ public class EmpAction {
 	public @ResponseBody Map<String, Object> findAll() throws Exception {
 
 		List<Empss> empList = empService.findAll();
-		LinkedHashMap<String, Object> map = new LinkedHashMap<String, Object>();
+        System.out.println("hello");
+        LinkedHashMap<String, Object> map = new LinkedHashMap<String, Object>();
 		map.put("total", empList.size());
 		map.put("rows", empList);
 		System.out.println("234235");
-		System.out.println("fffggg");
-        System.out.println("345543543");
-        System.out.println("sfdgdf");
-        System.out.println("f dsgfd");
         return map;
 
 	}
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		Date date = new  Date();
 		long time = date.getTime();
 		Date date2 = new Date(time+123425);
@@ -60,7 +57,7 @@ public class EmpAction {
 
 
 
-	}
+	}*/
 /*	public void test() throws SQLException{
 
 
