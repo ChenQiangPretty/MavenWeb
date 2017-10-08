@@ -25,7 +25,6 @@ import service.EmpService;
  * Ա������ģ�� �����������ֲ㣩
  *
  * @author hadoop
- * @param <V>
  *
  */
 
@@ -43,8 +42,12 @@ public class EmpAction {
 		LinkedHashMap<String, Object> map = new LinkedHashMap<String, Object>();
 		map.put("total", empList.size());
 		map.put("rows", empList);
-		//System.out.println("234235");
-		return map;
+		System.out.println("234235");
+		System.out.println("fffggg");
+        System.out.println("345543543");
+        System.out.println("sfdgdf");
+        System.out.println("f dsgfd");
+        return map;
 
 	}
 	public static void main(String[] args) {
