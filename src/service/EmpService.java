@@ -26,8 +26,8 @@ public class EmpService {
 
 	public List<Empss> findAll() throws Exception {
 
-		List<Empss> empList = empDao.findAll();
-		return empList;
+		List<Empss> all = empDao.findAll();
+		return all;
 	}
 
 }

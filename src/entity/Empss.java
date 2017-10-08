@@ -66,7 +66,7 @@ public class Empss {
 	}
 	@Override
 	public String toString() {
-		return "id=" + id + ", ename=" + ename + ", job=" + job
+		return "id =" + id + ", ename=" + ename + ", job=" + job
 				+ ", mgr=" + mgr + ", hiredate=" + hiredate + ", sal=" + sal
 				+ ", comm=" + comm + ", depno=" + depno;
 	}

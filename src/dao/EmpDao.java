@@ -1,8 +1,6 @@
 package dao;
 
 
-
-
 import java.util.List;
 
 import org.apache.commons.dbutils.QueryRunner;
@@ -14,34 +12,29 @@ import util.JdbcUtil;
 import entity.Empss;
 
 
-
-
-
 /**
- * Ա������ģ�� �־ò�ʵ����
+ *
  *
  * @author hadoop
- *
  */
 @Repository
 public class EmpDao {
 
-	/**
-	 * ��ѯ����Ա��
-	 */
-	public List<Empss> findAll() throws Exception {
-		QueryRunner runner = new QueryRunner(JdbcUtil.getDataSource());
-		String sql = "select * from emp";
-		List<Empss> empList = runner.query(sql, new BeanListHandler<Empss>(
-				Empss.class));
-		System.out.println("runing");
-		System.out.println("haha");
-		return empList;
+    /**
+     *
+     */
+    public List<Empss> findAll() throws Exception {
+        QueryRunner runner = new QueryRunner(JdbcUtil.getDataSource());
+        String sql = "select * from emp";
+        List<Empss> empList = runner.query(sql, new BeanListHandler<Empss>(
+                Empss.class));
+        System.out.println("runing");
+        return empList;
 
-	}
+    }
 
 	/*
-	 * public List<Map<String, Object>> findAll() throws Exception {
+     * public List<Map<String, Object>> findAll() throws Exception {
 	 * JdbcTemplate jdbcTemplate = new JdbcTemplate(JdbcUtil.getDataSource());
 	 * String sql = "select * from emp"; List<Map<String, Object>> queryForList
 	 * = jdbcTemplate.queryForList(sql); return queryForList;
@@ -49,7 +42,7 @@ public class EmpDao {
 	 * }
 	 */
 
-	// �����Ƿ������ӵ���ݿ�
+    // �����Ƿ������ӵ���ݿ�
 	/*
 	 * public static void main(String[] args) throws Exception { EmpDao dao =
 	 * new EmpDao(); List<Map<String, Object>> findAll = dao.findAll();

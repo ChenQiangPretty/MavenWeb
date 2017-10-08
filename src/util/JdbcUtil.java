@@ -16,7 +16,8 @@ public class JdbcUtil {
     * ��ȡ���Դ
     */
    public static ComboPooledDataSource getDataSource() {
-	return dataSource;
+       System.out.println("fs");
+       return dataSource;
   }
    
    
