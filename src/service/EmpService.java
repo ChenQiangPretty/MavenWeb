@@ -26,6 +26,7 @@ public class EmpService {
 
 	public List<Empss> findAll() throws Exception {
         System.out.println("hello");
+        System.out.println("oo");
 		List<Empss> all = empDao.findAll();
 		return all;
 	}
